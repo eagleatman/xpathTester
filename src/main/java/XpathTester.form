@@ -92,6 +92,7 @@
             <properties>
               <columns value="0"/>
               <dropMode value="USE_SELECTION"/>
+              <editable value="false"/>
               <lineWrap value="true"/>
               <margin top="0" left="0" bottom="0" right="0"/>
               <maximumSize width="-1" height="-1"/>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="XpathTester">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="true" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="13" y="20" width="924" height="327"/>
+    </constraints>
+    <properties>
+      <toolTipText value=""/>
+    </properties>
+    <border type="none">
+      <color color="-5524801"/>
+    </border>
+    <children>
+      <scrollpane id="5a25c" binding="scrollPane1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalScrollBarPolicy value="30"/>
+          <verticalScrollBarPolicy value="22"/>
+        </properties>
+        <border type="none" title="XML源数据"/>
+        <children>
+          <component id="f4ffd" class="javax.swing.JTextArea" binding="xmlTextArea">
+            <constraints/>
+            <properties>
+              <columns value="0"/>
+              <lineWrap value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <maximumSize width="-1" height="-1"/>
+              <minimumSize width="-1" height="-1"/>
+              <preferredSize width="600" height="17000"/>
+              <requestFocusEnabled value="false"/>
+              <rows value="1000"/>
+              <tabSize value="2"/>
+              <toolTipText value="XML文件"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+        </children>
+      </scrollpane>
+      <toolbar id="a3e6d">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="900" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <floatable value="false"/>
+        </properties>
+        <border type="none" title="xpath语句"/>
+        <children>
+          <component id="abd09" class="javax.swing.JTextField" binding="xpathTextField">
+            <constraints/>
+            <properties>
+              <maximumSize width="800" height="40"/>
+              <minimumSize width="800" height="40"/>
+              <preferredSize width="800" height="40"/>
+              <toolTipText value="xpath语句"/>
+            </properties>
+          </component>
+          <component id="20b98" class="javax.swing.JButton" binding="xpathTestButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <alignmentX value="0.5"/>
+              <autoscrolls value="false"/>
+              <maximumSize width="78" height="30"/>
+              <minimumSize width="78" height="30"/>
+              <preferredSize width="78" height="30"/>
+              <requestFocusEnabled value="true"/>
+              <text value="xpath test"/>
+              <toolTipText value="测试xpath语法"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <scrollpane id="f1bd0">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalScrollBarPolicy value="30"/>
+          <verticalScrollBarPolicy value="20"/>
+        </properties>
+        <border type="none" title="解析结果"/>
+        <children>
+          <component id="c9872" class="javax.swing.JTextArea" binding="resultTextArea">
+            <constraints/>
+            <properties>
+              <columns value="0"/>
+              <dropMode value="USE_SELECTION"/>
+              <lineWrap value="true"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <maximumSize width="-1" height="-1"/>
+              <minimumSize width="400" height="100"/>
+              <preferredSize width="400" height="17000"/>
+              <rows value="1000"/>
+              <text value=""/>
+              <toolTipText value="测试结果"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
